@@ -1,7 +1,7 @@
 {
   "name": "mincopy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Synchronize two folders with minimal writes",
   "main": "index.js",
   "bin": {
     "mincopy": "./bin.mjs"
@@ -9,13 +9,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Guillaume Chau",
+  "license": "MIT",
   "dependencies": {
     "chokidar": "^3.5.3",
     "fs-extra": "^10.0.0",
     "lru-cache": "^7.3.1",
     "pathe": "^0.2.0",
     "sade": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akryum/mincopy.git"
   }
 }
