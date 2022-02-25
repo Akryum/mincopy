@@ -13,3 +13,9 @@ Usage:
 ```
 mincopy some/source/folder a/destination/directory --exclude "**/node_modules/**"
 ```
+
+<p align="center">
+  <a href="https://guillaume-chau.info/sponsors/" target="_blank">
+    <img src='https://akryum.netlify.app/sponsors.svg'/>
+  </a>
+</p>
